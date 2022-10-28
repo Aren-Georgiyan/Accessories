@@ -416,6 +416,47 @@
     color: white
 }
 
+@media screen and (max-width: 600px) {
+    .top1 {
+        flex-direction: column;
+        align-items: normal;
+        justify-content: flex-start;
+    }
+    .middle {
+        padding: 100px 20px 0 100px;
+    }
+    
+    .middle-1div1 {
+        padding: 18px;
+    }
+    .middle1-1img {
+        width: 80%;
+    }
+    .middle1-2h1 {
+        font-size: 35px;
+    }
+    .middle2-h1 {
+        font-size: 30px;
+    }
+    .middle2-1a {
+        max-width: 280px;
+    }
+    .middle2-1h3 {
+        font-size: 15px;
+    }
+    .middle2-1p {
+        font-size: 15px;
+    }
+    .middle1-7 {
+        justify-content: center;
+    }
+    .middle1-h1 {
+        text-align: center;
+    }
+    .middle-pp {
+        max-width: 350px;
+    }
+}
 
 
 
